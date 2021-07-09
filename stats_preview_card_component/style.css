@@ -3,6 +3,10 @@
 }
 body{
     font-size: 15px;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: hsl(233, 47%, 7%);
 }
 .wrapper{
