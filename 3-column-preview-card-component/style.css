@@ -1,0 +1,76 @@
+body{
+    font-size: 15px;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', sans-serif;
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 1.5em 0 3em 0;
+    line-height: 1.5em;
+}
+.wrapper{
+    width: 1000px;
+    margin: auto;
+}
+.cars{
+    display: flex;
+    justify-content: center;
+}
+.car{
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3em 3em 3em 3em;
+}
+.car img{
+    width: 64px;
+    height: auto;
+    margin-bottom: 2em;
+}
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 0.5em 0 0 0.5em;
+}
+.sedans a{
+    color: hsl(31, 77%, 52%);
+}
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+.suvs a{
+    color: hsl(184, 100%, 22%);
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0.5em 0.5em 0;
+}
+.luxury a{
+    color: hsl(179, 100%, 13%);
+}
+h2{
+    font-size: 2.5em;
+    margin: 0;
+    text-transform: uppercase;
+}
+.car a{
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 3em;
+    padding: 0.8em 1.8em;
+    background-color: hsl(0, 0%, 95%);
+    width: max-content;
+    border-radius: 2em;
+    border: 2px solid hsl(0, 0%, 95%);
+}
+.car a:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: hsl(0, 0%, 95%);
+}
