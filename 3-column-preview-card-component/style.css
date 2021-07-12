@@ -23,7 +23,7 @@ p{
     justify-content: center;
 }
 .car{
-    max-width: 200px;
+    max-width: 210px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -63,6 +63,7 @@ h2{
     text-decoration: none;
     font-size: 1em;
     font-family: 'Lexend Deca', sans-serif;
+    font-weight: 700;
     margin-top: 3em;
     padding: 0.8em 1.8em;
     background-color: hsl(0, 0%, 95%);
@@ -73,4 +74,28 @@ h2{
 .car a:hover{
     background-color: rgba(0, 0, 0, 0);
     color: hsl(0, 0%, 95%);
+}
+@media screen and (max-width: 1020px) {
+    body{
+        height: auto;
+    }
+    .wrapper{
+        width: 98%;
+    }
+    .cars{
+        flex-direction: column;
+        align-items: center;
+    }
+    .car{
+        max-width: 250px;
+    }
+    .luxury{
+        border-radius: 0 0 0.5em 0.5em;
+    }
+    .sedans{
+        border-radius: 0.5em 0.5em 0 0;
+    }
+    .car a{
+        margin-top: 0;
+    }
 }
